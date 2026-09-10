@@ -95,7 +95,7 @@ function CreateAccount() {
         {/* Title */}
 
         <h2 className="text-center mb-2">
-          KaIZen
+         Instagram
         </h2>
 
         <p className="text-center text-muted mb-4">

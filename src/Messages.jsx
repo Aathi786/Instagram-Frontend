@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { apiFetch } from "./api"
+import "./Messages.css"
 
 function Messages() {
 
@@ -697,7 +698,13 @@ function Messages() {
           CHAT PANEL
       ===================================== */}
 
-      <div className="messages-chat-panel">
+     <div
+  className={`messages-chat-panel ${
+    selectedUser
+      ? "mobile-chat-open"
+      : "mobile-chat-closed"
+  }`}
+>
 
 
         {!selectedUser ? (
