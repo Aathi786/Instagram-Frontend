@@ -38,7 +38,7 @@ function CreateAccount() {
     try {
 
       const response = await fetch(
-        "http://localhost:8081/api/users/register",
+        "https://instagram-backend-weov.onrender.com/api/users/register",
         {
           method: "POST",
           headers: {
@@ -95,7 +95,7 @@ function CreateAccount() {
         {/* Title */}
 
         <h2 className="text-center mb-2">
-          Instagram
+          KaIZen
         </h2>
 
         <p className="text-center text-muted mb-4">

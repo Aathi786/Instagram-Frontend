@@ -385,7 +385,7 @@ const handleLogout = () => {
         >
 
           <h3 className="fw-bold">
-            Instagram
+        Instagram
           </h3>
 
         </div>

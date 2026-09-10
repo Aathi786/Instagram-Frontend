@@ -20,7 +20,7 @@ function Login() {
     try {
 
       const response = await fetch(
-        "http://localhost:8081/api/users/login",
+        "https://instagram-backend-weov.onrender.com/api/users/login",
         {
           method: "POST",
           headers: {
@@ -72,7 +72,7 @@ function Login() {
       >
 
         <h2 className="text-center mb-4">
-          Instagram
+        Instagram
         </h2>
 
         <form onSubmit={handleLogin}>
